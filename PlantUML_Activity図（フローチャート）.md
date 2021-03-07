@@ -8,7 +8,6 @@ start
 
 repeat
   :アクティビティA;
-
 repeat while(i<10)
 
 if( x>=0 ) then (true)
