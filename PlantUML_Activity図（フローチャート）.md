@@ -9,7 +9,7 @@ start
 repeat
   :アクティビティA;
   note right
-  アクティビティAは後判定繰り返し（repeat）
+  アクティビティAは後判定繰り返し
   end note
 repeat while(i<10)
 
@@ -24,7 +24,7 @@ endif
 while(n<10)
 :アクティビティC;
   note right
-  アクティビティCは前判定繰り返し（while）
+  アクティビティCは前判定繰り返し
   end note
 end while
 
