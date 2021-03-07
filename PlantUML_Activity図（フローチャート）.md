@@ -15,7 +15,9 @@ if( x>=0 ) then (true)
 else (false)
 endif
 
+repeat while(i<10)
 :アクティビティC;
+repeat
 
 stop
 @enduml
