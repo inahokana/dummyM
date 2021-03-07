@@ -4,10 +4,13 @@ title （アクティビティ図）フローチャートの例
 
 start
 
-:iに0を代入
+:iに0を代入;
 
 repeat
   :アクティビティA;
+  note right
+  アクティビティAは後判定繰り返し
+  end note
 repeat while (i<10)
 
 if( x>=0 ) then (true)
