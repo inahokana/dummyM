@@ -7,7 +7,7 @@ start
 repeat
   :アクティビティA;
   note right
-  アクティビティAのコメント
+  アクティビティAは後判定繰り返し（repeat）
   end note
 repeat while(i<10)
 
@@ -19,6 +19,9 @@ endif
 
 while(n<10)
 :アクティビティC;
+  note right
+  アクティビティCは前判定繰り返し（while）
+  end note
 end while
 
 stop
