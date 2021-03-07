@@ -19,7 +19,7 @@ if( x>=0 ) then (true)
 else (false)
 endif
 
-:nに0を代入
+:nに0を代入;
 
 while(n<10)
 :アクティビティC;
