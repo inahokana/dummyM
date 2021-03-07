@@ -1,4 +1,4 @@
-'''uml
+```uml
 @startuml
 
 start
@@ -12,4 +12,4 @@ start
 
 stop
 @enduml
-'''
+```
