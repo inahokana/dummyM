@@ -4,6 +4,8 @@ title （アクティビティ図）フローチャートの例
 
 start
 
+:iに0を代入
+
 repeat
   :アクティビティA;
   note right
@@ -16,6 +18,8 @@ if( x>=0 ) then (true)
 改行しました;
 else (false)
 endif
+
+:nに0を代入
 
 while(n<10)
 :アクティビティC;
