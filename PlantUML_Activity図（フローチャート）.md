@@ -4,10 +4,12 @@ title （アクティビティ図）フローチャートの例
 
 start
 
-:アクティビティA;
-note right
-アクティビティAのコメント
-end note
+repeat
+  :アクティビティA;
+  note right
+  アクティビティAのコメント
+  end note
+repeat while(i<10)
 
 if( x>=0 ) then (true)
 :アクティビティB
@@ -15,9 +17,9 @@ if( x>=0 ) then (true)
 else (false)
 endif
 
-repeat while(i<10)
+while(n<10)
 :アクティビティC;
-repeat
+end while
 
 stop
 @enduml
